@@ -1,0 +1,8 @@
+# Virtual environment directories
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+.venv/
