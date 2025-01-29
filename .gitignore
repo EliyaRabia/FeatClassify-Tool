@@ -6,3 +6,6 @@ env.bak/
 venv.bak/
 .venv
 .venv/
+
+# Node modules directory
+node_modules/
