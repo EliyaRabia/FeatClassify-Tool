@@ -11,9 +11,10 @@ const App = () => {
 
   // Short paragraph text
   const paragraphText = `
-    This is a demo site where you can upload one or more files 
-    (CSV, JSON, or ZIP). The system will analyze each file's columns 
-    and classify them as either categorical or numerical.
+    In this site you can upload one or more files 
+    (CSV, JSON, or ZIP), the system will analyze each file's columns 
+    and classify them as either categorical or numerical for better analyze 
+    data or prepare Modeling.
   `;
 
   const handleFileChange = (event) => {
@@ -59,14 +60,14 @@ const App = () => {
     setLoading(false);
   };
 
-  // Reset all states: clear files and results, and also clear the file input's value
+  // Reset all states: clear files and results, and also clear the file input’s value
   const handleReset = () => {
     setFiles([]);
     setFileResults([]);
     setError(null);
     setLoading(false);
 
-    // Clear the actual file input's value so it will register the next file selection
+    // Clear the actual file input's value
     const fileInput = document.getElementById("file-upload");
     if (fileInput) {
       fileInput.value = null;
@@ -85,13 +86,13 @@ const App = () => {
         py: 4,
       }}
     >
-      {/* Title in the center */}
+      {/* Title in the center - now with the same primary color */}
       <Typography
         variant="h3"
         align="center"
-        sx={{ fontWeight: "bold", mb: 2 }}
+        sx={{ fontWeight: "bold", mb: 2, color: "primary.main" }}
       >
-        My Feature Classifier
+        Feature Classifier Tool
       </Typography>
 
       {/* Short paragraph about the site */}
@@ -145,6 +146,7 @@ const App = () => {
             component="span"
             startIcon={<CloudUploadIcon />}
             sx={{ mt: 2 }}
+            color="primary" // same color as Reset now
           >
             Select Files
           </Button>
@@ -176,7 +178,7 @@ const App = () => {
             {loading ? "Uploading..." : "Upload"}
           </Button>
 
-          <Button variant="outlined" color="secondary" onClick={handleReset}>
+          <Button variant="contained" color="primary" onClick={handleReset}>
             Reset
           </Button>
         </Box>
