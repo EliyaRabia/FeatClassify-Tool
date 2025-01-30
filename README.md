@@ -1,6 +1,6 @@
 # Feature Classifier Tool
-<img src="https://github.com/user-attachments/assets/d8ca2cfb-8f21-4804-95c3-d67ebe35542a" width="300" height="300">
-<img src="https://github.com/user-attachments/assets/56329c26-617c-46e7-aa6d-6fefdf9b8cd1"width="300" height="300">
+<img src="https://github.com/user-attachments/assets/d8ca2cfb-8f21-4804-95c3-d67ebe35542a" width="400" height="300">
+<img src="https://github.com/user-attachments/assets/56329c26-617c-46e7-aa6d-6fefdf9b8cd1"width="400" height="300">
 
 ![Screenshot 2025-01-30 134533](https://github.com/user-attachments/assets/56329c26-617c-46e7-aa6d-6fefdf9b8cd1){: width="300" height="300"}
 
