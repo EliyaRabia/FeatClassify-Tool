@@ -1,7 +1,7 @@
 # Feature Classifier Tool
 
 <img src="https://github.com/user-attachments/assets/d8ca2cfb-8f21-4804-95c3-d67ebe35542a" width="450" height="350">
-<img src="https://github.com/user-attachments/assets/009bb911-d037-465e-8221-256801e76564" width="450" height="350">
+<img src="https://github.com/user-attachments/assets/9f580d81-caed-473c-8ae9-c0968e4236c7"width="550" height="350">
 
 ## Abstract
 In today's data-driven world, distinguishing between categorical and numerical features is essential for effective data preprocessing and analysis. The Feature Classifier Tool is designed to automate this process, helping data scientists, analysts, and engineers easily classify dataset features. This tool provides:<br>
